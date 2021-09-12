@@ -1,0 +1,27 @@
+/** @format */
+
+.root {
+  display: flex;
+  margin-top: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0;
+  color: black;
+  font-weight: bold;
+}
+
+.infected {
+  border-bottom: 10px solid rgba(82, 51, 217, 0.5);
+}
+
+.recovered {
+  border-bottom: 10px solid rgba(244, 92, 82, 0.5);
+}
+
+.deaths {
+  border-bottom: 10px solid rgba(38, 133, 45, 0.5);
+}
